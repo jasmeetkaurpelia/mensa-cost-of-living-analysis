@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+
+# Jupyter auto-saves
+.ipynb_checkpoints/
+
+# Raw data (can be re-downloaded anytime)
+data/raw/*
+!data/raw/.gitkeep
+
+# Secrets
+.env
